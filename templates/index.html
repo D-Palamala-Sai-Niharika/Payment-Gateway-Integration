@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!--responsive viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--css files-->
+    <link rel="stylesheet" href="../static/index.css">
+    <!--title-->
+    <title>Donate</title>
+    <!--favicon-->
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+    <!--flickity css plugin-->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <!--font-awesome icons-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  </head>
+  <body>
+    <!--nav bar-->
+    <div class="nav-bar">
+      <div class="container">
+        <div class="toggle-and-logo">
+           <label class="toggle-icon" for="toggle">&#9776;</label> <!--for and id must be same-->
+           <input type="checkbox" id="toggle" />
+           <div class="logo">
+             <a href="#id1"><h3>Donate Online</h3></a>
+           </div>
+        </div>
+        <div class="nav-menu">
+           <a href="#id1">Home</a>
+           <a href="#id2">About us</a>
+           <a href="#id3">Gallery</a>
+           <a href="#id4">Join us</a>
+           <a href="#id5">Contact</a>
+           <a href="https://rzp.io/l/kaUBKVGl">Donate</a>
+        </div>
+      </div>
+    </div>
+    <!--home-->
+    <div class="home" id="id1" >
+     <div class="home-description">
+        <h1 class="home-description-heading">Raise Your Helping Hand !</h1>
+        <p class="home-description-para">To Feed and Educate , we need your support</p>
+        <!--embedding razorpay button-->
+        <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_HWvWohqLqNU1Ab" async> </script> </form>
+      </div>
+    </div>
+    <!--About us-->
+    <div class="about-us" id="id2">
+      <div class="about-us-container">
+        <div class="about-us-img">
+          <img class="about-img" src="../images/about.png" alt="abt-us-img" />
+        </div>
+        <div class="about-us-description">
+          <h2 class="about-heading">Our mission</h2>
+          <p class="about-para">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, et placeat ipsam, officiis fugiat doloremque ducimus
+            tempore aliquid nihil soluta, quia similique veritatis!Quidem, repellendus exit placeat ipsam, officiis fugiat doloremque
+            ducimus tempore aliquid nihil soluta, quia similique veritatis.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--Gallery(flickity-plugin)-->
+    <div class="gallery" id="id3">
+    <h2 class="gallery-heading">Gallery</h2>
+      <div class="carousel" data-flickity='{ "wrapAround": true }'>
+        <div class="carousel-cell"><img src="../images/1.png" alt="1" /></div>
+        <div class="carousel-cell"><img src="../images/2.png" alt="2" /></div>
+        <div class="carousel-cell"><img src="../images/3.png" alt="3" /></div>
+        <div class="carousel-cell"><img src="../images/4.png" alt="4" /></div>
+        <div class="carousel-cell"><img src="../images/5.png" alt="5" /></div>
+      </div>
+    </div>
+    <!--Join our community-->
+    <div class="main-container"  id="id4">
+      <h2 class="main-heading">Join Our Community</h2>
+      <div class="flex-container">
+        <div class="col-1">
+          <h3 class="des-heading">Become a volunteer</h3>
+          <p class="des-para">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Egestas diam in arcu cursus euismod. Nulla malesuada pellentesque elit eget gravida.
+          </p>
+          <a class="btn1" href="#">Join Us</a>
+        </div>
+        <div class="col-2">
+          <img class="col-img" src="../images/join.jpg" alt="join-img" />
+        </div>
+      </div>
+    </div>
+    <!--Contact section-->
+    <div class="contact-section"  id="id5">
+      <h2 class="contact-heading">Contact Us</h2>
+      <div class="map-location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248849.8865403128!2d77.49085223374693!3d12.953959986896868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1626354824545!5m2!1sen!2sin"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <div class="contact">
+        <div class="contact-description">
+          <div class="row-1">
+            <i class="fas fa-home"></i>
+            <span>
+              <h4>X Y Z Road,A B C Building</h4>
+              <p class="info">Bangalore, Karnataka, India</p>
+            </span>
+          </div>
+          <div class="row-2">
+            <i class="fas fa-phone"></i>
+            <span>
+              <h4>+1 0123456789</h4>
+              <p class="info">Monday to Saturday, 10AM to 6PM</p>
+            </span>
+          </div>
+          <div class="row-3">
+            <i class="far fa-envelope"></i>
+            <span>
+              <h4>info@gmail.com</h4>
+              <p class="info">Email us your querry</p>
+            </span>
+          </div>
+        </div>
+        <div class="contact-form">
+          <form method="">
+            <input type="text" placeholder="Enter your Name" required />
+            <input type="text" placeholder="Enter your E-mail" required />
+            <textarea rows=8 placeholder="Enter your Message"></textarea>
+          </form>
+          <button class="btn2" type="submit">Submit</button>
+        </div>
+      </div>
+    </div>
+    <!--Footer section-->
+    <div class="footer">
+      <div class="footer-description">
+        <h3 class="footer-heading">Connect with us on</h3>
+        <div class="footer-imgs">
+          <a class="flex-item" href="#"><img src="../images/facebook.png" alt="facebook" /></a>
+          <a class="flex-item" href="#"><img src="../images/instagram.png" alt="facebook" /></a>
+          <a class="flex-item" href="#"><img src="../images/twitter.png" alt="facebook" /></a>
+          <a class="flex-item" href="#"><img src="../images/linkedln.png" alt="facebook" /></a>
+        </div>
+        <p class="footer-para">©All copyrights reserved</p>
+        <div class="arrow">
+          <a href="#" class="arrow-btn"><i class="fas fa-arrow-up"></i></a>
+        </div>
+     </div>
+    </div>
+    <!--flickity js plugin-->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  </body>
+</html>
