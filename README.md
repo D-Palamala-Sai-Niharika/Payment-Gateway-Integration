@@ -1,2 +1,2 @@
 # Payment-Gateway-Integration
-https://github.com/D-Palamala-Sai-Niharika/Payment-Gateway-Integration/tree/main/templates
+https://d-palamala-sai-niharika.github.io/Payment-Gateway-Integration/templates/index.html
